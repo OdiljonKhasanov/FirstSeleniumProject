@@ -14,7 +14,7 @@ public class FirstSeleniumClass {
 
         //WebDriver driver = new ChromeDriver();
         WebDriver driver = new FirefoxDriver();
-        driver.get("https://www.google.com/");
+        driver.get("https://www.amazon.com/");
 
 
     }
