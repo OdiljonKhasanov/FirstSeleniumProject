@@ -1,0 +1,76 @@
+Selenium supports locators:
+
+By.id().
+By.name().
+By.className().
+By.tagName().
+By.linkText() and By.partialLinkText().
+By.cssSelector().
+By.xpath().
+
+<input type="text" id="prependedInput" class="span2" name="_username" value="" required="required" placeholder="Username or Email" autofocus="" xpath="1">
+
+input - tagname
+id - attribute
+prependedInput - value
+
+whenever we use :  By.id().
+                   By.name().
+                   By.className().
+                   By.tagName().
+                   By.linkText() and By.partialLinkText().
+
+                   id, name, class, tag, linkText need to be unique
+
+
+Finding Locators Techniques:
+                            1. html code, right click, copy
+                            2. Using Chrome and Firefox inspector tools,
+                               they give automatically generated xpath, but they are not 100% reliable
+
+                            3. Important one: customized xpath or Css selectors
+
+<input type="text" id="prependedInput" class="span 2" name="_username" value="" required="required" placeholder="Username or Email" autofocus="" xpath="1">
+
+<input> - tagname
+
+attributes:                      values:
+type                      -    text
+id                        -    prependedInput
+class                     -     span2
+ name                     -_username
+
+
+Syntax of Xpath:  (template):  //tagname[@attribute='value']
+                              //*[@attribute='value']
+
+                              ex: //input[@id='prependendentInput']
+                                  //input[@type ='text'];
+                                  //*[@type ='text'];
+
+
+CSS : Everything is same as in xpath:
+Syntax for Css:                      : tagname[attribute='value']
+                                     :  *[attribute='value']
+                                     : tagname#idValue
+                                     :        #idValue
+                                     :  tagname.class
+Be careful!! 1. might be problem when ther is space in class value, we can use it by replacing with period/dot the space
+             2. might not be unique
+
+
+
+Validating xpath and Css from browser:
+                                      Console in browser inspector:
+
+                                      1. click on console:
+                                      2. $x("your xpath") enter
+
+                                         $ ("your css") enter
+
+                                      3. if exists that element will come
+                                      if not it will print null
+
+                                      Chropath:
+                                      some companies block or in the future it might not be available
+                                      downloading chrome

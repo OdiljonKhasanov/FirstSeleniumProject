@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f97b571-acfe-4c83-97f3-9eef0a8436e1" name="Default Changelist" comment="" />
+    <list default="true" id="9f97b571-acfe-4c83-97f3-9eef0a8436e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day2/BasicNavigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day2/BrowserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day2/CastingBrowserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day2/ReadPageSourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day2/TitleVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Office_Hours/BasicNavigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Office_Hours/Browser_Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Office_Hours/SendEmails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Odiljon/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumAutomation2019/src/com/cybertek/FirstAutomationScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPractice/.idea/dictionaries/Odiljon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPractice/src/test/java/com/cybertek/tests/Day4/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPractice/src/test/java/com/cybertek/tests/Day4/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPractice/src/test/java/com/cybertek/tests/OfficeHour_June27/MavenPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPractice/src/test/java/com/cybertek/tests/OfficeHour_June27/library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPractice/src/test/java/com/cybertek/tests/com/loginLogout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumTutorials/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumTutorials/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestAutomationSpring2019/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestAutomationSpring2019/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestAutomationSpring2019/src/test/java/com/cybertek/FirstAutomationScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../First-intellij-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../First-intellij-project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstSelenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstSelenium/out/production/FirstSelenium/com/cybertek/BasicNavigation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstSelenium/out/production/FirstSelenium/com/cybertek/FirstSeleniumClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/BasicNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day1/BasicNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/FirstSeleniumClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day1/FirstSeleniumClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Second-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Second-Project.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,21 +41,79 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2379" />
-    <option name="y" value="-14" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Second-Project.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/Odiljon/Test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1913" />
+    <option name="width" value="1146" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Second-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Second-Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Second-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Second-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Second-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Second-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Odiljon" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/selenium dependencies/libraries/selenium-java-3.141.59/client-combined-3.141.59-sources.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -36,6 +126,26 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Odiljon.Test" />
+      <module name="Second-Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Odiljon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -51,9 +161,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1913" y="0" width="1146" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20165746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -70,6 +180,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -79,5 +190,92 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/Odiljon/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Second-Project.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Second-Project</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

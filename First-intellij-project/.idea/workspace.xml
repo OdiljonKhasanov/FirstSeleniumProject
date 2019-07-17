@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0c31acc-765b-4742-9f3e-806ebc42d097" name="Default Changelist" comment="" />
+    <list default="true" id="d0c31acc-765b-4742-9f3e-806ebc42d097" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day2/BasicNavigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day2/BrowserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day2/CastingBrowserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day2/ReadPageSourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day2/TitleVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Office_Hours/BasicNavigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Office_Hours/Browser_Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Office_Hours/SendEmails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Second-Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Second-Project/src/com/Odiljon/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumAutomation2019/src/com/cybertek/FirstAutomationScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPractice/.idea/dictionaries/Odiljon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPractice/src/test/java/com/cybertek/tests/Day4/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPractice/src/test/java/com/cybertek/tests/Day4/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPractice/src/test/java/com/cybertek/tests/OfficeHour_June27/MavenPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPractice/src/test/java/com/cybertek/tests/OfficeHour_June27/library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumPractice/src/test/java/com/cybertek/tests/com/loginLogout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumTutorials/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SeleniumTutorials/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestAutomationSpring2019/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestAutomationSpring2019/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestAutomationSpring2019/src/test/java/com/cybertek/FirstAutomationScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstSelenium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstSelenium/out/production/FirstSelenium/com/cybertek/BasicNavigation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstSelenium/out/production/FirstSelenium/com/cybertek/FirstSeleniumClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/BasicNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day1/BasicNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/FirstSeleniumClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/src/com/cybertek/Day1/FirstSeleniumClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Second-Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Second-Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Second-Project/Second-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Second-Project/Second-Project.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +45,26 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/app/Example.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/app/HelooWorld.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,6 +79,9 @@
       <find>hello</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -37,18 +91,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="227" />
-    <option name="y" value="-28" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -71,9 +124,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -141,7 +197,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1881663" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -182,8 +238,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/app/HelooWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
