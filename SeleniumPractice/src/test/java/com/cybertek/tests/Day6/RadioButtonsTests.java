@@ -1,8 +1,7 @@
 package com.cybertek.tests.Day6;
 
-import com.cybertek.tests.BrowserFactory;
-import com.cybertek.tests.SeleniumUtils;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import com.cybertek.utilities.BrowserFactory;
+import com.cybertek.utilities.SeleniumUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,7 +20,7 @@ public class RadioButtonsTests {
         //test3();
         test4();
 
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         driver.close();
     }
     //lets check if blue radio button is selected

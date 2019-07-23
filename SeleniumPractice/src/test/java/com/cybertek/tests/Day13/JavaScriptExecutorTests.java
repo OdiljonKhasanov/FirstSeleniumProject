@@ -1,6 +1,6 @@
 package com.cybertek.tests.Day13;
 
-import com.cybertek.tests.SeleniumUtils;
+import com.cybertek.utilities.SeleniumUtils;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,10 +29,10 @@ public class JavaScriptExecutorTests {
         JavascriptExecutor js = (JavascriptExecutor)driver;
         String title = (String)js.executeScript("return document.title");
         js.executeAsyncScript("alert('Hello Odiljon!!!')");
-        SeleniumUtils.sleep(3);
+        SeleniumUtils.waitPlease(3);
         Alert alert = driver.switchTo().alert();
         alert.accept();
-        SeleniumUtils.sleep(3);
+        SeleniumUtils.waitPlease(3);
         System.out.println(title);
     }
 
@@ -42,7 +42,7 @@ public class JavaScriptExecutorTests {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         for(int i=0; i< 11; i++) {
             js.executeScript("window.scrollBy(0, 250)");
-            SeleniumUtils.sleep(1);
+            SeleniumUtils.waitPlease(1);
         }
     }
 
@@ -53,9 +53,9 @@ public class JavaScriptExecutorTests {
         WebElement footLink = driver.findElement(By.linkText("Cybertek School"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView(true)", footLink);
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         js.executeScript("arguments[0].click()", footLink);
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
 
     }
 

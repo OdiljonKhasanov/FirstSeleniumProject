@@ -1,4 +1,4 @@
-package com.cybertek.tests;
+package com.cybertek.utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -37,7 +37,7 @@ public class SeleniumUtils {
         }
     }
 
-    public static void sleep(double a){
+    public static void waitPlease(double a){
         try {
             Thread.sleep((long)a*1000);
         } catch (InterruptedException e) {
@@ -77,7 +77,7 @@ public class SeleniumUtils {
                 //print attempt
                 System.out.println("Attempt :: " + ++counter);
                 //wait for 1 second, and try to click again
-                sleep(1);
+                waitPlease(1);
             }
         }
 

@@ -1,7 +1,7 @@
 package com.cybertek.tests.Day11;
 
-import com.cybertek.tests.SeleniumUtils;
-import com.cybertek.tests.VyTrackUtils;
+import com.cybertek.utilities.SeleniumUtils;
+import com.cybertek.utilities.VYTrackUtils;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -29,13 +29,13 @@ public class VyTrackAutomation {
    public void StoreManagerTest(){
 
        //login
-       VyTrackUtils.login(driver,"storemanager51","UserUser123");
+       VYTrackUtils.login(driver,"storemanager51","UserUser123");
        //navigate to module
-       VyTrackUtils.navigatetoModule(driver,"Activities","Calls");
-       SeleniumUtils.sleep(3);
+       VYTrackUtils.navigateToModule(driver,"Activities","Calls");
+       SeleniumUtils.waitPlease(3);
        Assert.assertTrue(driver.findElement(By.cssSelector(createButtonLocator)).isDisplayed());
-       SeleniumUtils.sleep(1);
-       VyTrackUtils.navigatetoModule(driver,"Activities", "Calendar Events");
+       SeleniumUtils.waitPlease(1);
+       VYTrackUtils.navigateToModule(driver,"Activities", "Calendar Events");
        Assert.assertTrue(driver.findElement(By.cssSelector(createCalendarEventButtonLocator)).isDisplayed());
 
 
@@ -44,14 +44,14 @@ public class VyTrackAutomation {
     @Test (priority = 2)
     public void salesManagerTest(){
         //login
-        VyTrackUtils.login(driver, "salesmanager253", "UserUser123");
+        VYTrackUtils.login(driver, "salesmanager253", "UserUser123");
         //navigate to the Calls
-        VyTrackUtils.navigatetoModule(driver, "Activities", "Calls");
+        VYTrackUtils.navigateToModule(driver, "Activities", "Calls");
         //assert true that button "log call" is displayed
         Assert.assertTrue(driver.findElement(By.cssSelector(createButtonLocator)).isDisplayed());
-        SeleniumUtils.sleep(1);
+        SeleniumUtils.waitPlease(1);
         //navigate to the Calendar Events
-        VyTrackUtils.navigatetoModule(driver, "Activities", "Calendar Events");
+        VYTrackUtils.navigateToModule(driver, "Activities", "Calendar Events");
         //Verify that Create Calendar Event is displayed
         Assert.assertTrue(driver.findElement(By.cssSelector(createCalendarEventButtonLocator)).isDisplayed());
     }

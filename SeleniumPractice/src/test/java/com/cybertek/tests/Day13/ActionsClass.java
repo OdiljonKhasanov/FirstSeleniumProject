@@ -1,6 +1,6 @@
 package com.cybertek.tests.Day13;
 
-import com.cybertek.tests.SeleniumUtils;
+import com.cybertek.utilities.SeleniumUtils;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -60,7 +60,7 @@ public class ActionsClass {
         List<WebElement> images = driver.findElements(By.tagName("img"));
         for (WebElement image: images){
             //ONLY DEMO
-            SeleniumUtils.sleep(1);
+            SeleniumUtils.waitPlease(1);
             action.moveToElement(image).perform();
         }
 
@@ -79,7 +79,7 @@ public class ActionsClass {
                 click().
                 build().
                 perform();
-        SeleniumUtils.sleep(2);//JUST FOR DEMO
+        SeleniumUtils.waitPlease(2);//JUST FOR DEMO
     }
 
 
@@ -95,7 +95,7 @@ public class ActionsClass {
         String actualMessage = earth.getText();
 
         Assert.assertEquals(actualMessage, expectedMessage);
-        SeleniumUtils.sleep(3);
+        SeleniumUtils.waitPlease(3);
 
     }
 

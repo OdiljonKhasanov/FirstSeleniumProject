@@ -1,14 +1,11 @@
 package com.cybertek.tests.VyTrack;
 
-import com.cybertek.tests.BrowserFactory;
-import com.cybertek.tests.SeleniumUtils;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import net.bytebuddy.asm.Advice;
+import com.cybertek.utilities.BrowserFactory;
+import com.cybertek.utilities.SeleniumUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.Arrays;
 import java.util.List;
@@ -141,14 +138,14 @@ public static void test1(){ // READY!!!
         String verifyInDashboard = (dashboardURL.contains("dashboard"))? "PASS: Inside dashboard page" : "FAIL: Wrong page";
         System.out.println(verifyInDashboard);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        SeleniumUtils.sleep(5);
+        SeleniumUtils.waitPlease(5);
         driver.findElement(By.className("fa-share-square")).click();
-        SeleniumUtils.sleep(5);
+        SeleniumUtils.waitPlease(5);
         driver.findElement(By.linkText("See full list")).click();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         driver.findElement(By.linkText("Vehicle Services Logs")).click();
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         String messageText = driver.findElement(By.xpath("//*[@id=\"flash-messages\"]/div/div/div/div")).getText();
         String expectedMessageText = "You do not have permission to perform this action.";
 

@@ -1,8 +1,7 @@
 package com.cybertek.tests.OfficeHour_July9;
 
-import com.cybertek.tests.SeleniumUtils;
+import com.cybertek.utilities.SeleniumUtils;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class FaceBookLogin {
@@ -18,7 +17,7 @@ public class FaceBookLogin {
         ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.facebook.com/");
-        SeleniumUtils.sleep(3);
+        SeleniumUtils.waitPlease(3);
 
 
     }

@@ -1,6 +1,6 @@
 package com.cybertek.tests.Day9;
-import com.cybertek.tests.BrowserFactory;
-import com.cybertek.tests.SeleniumUtils;
+import com.cybertek.utilities.BrowserFactory;
+import com.cybertek.utilities.SeleniumUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -35,7 +35,7 @@ public class RelativeXpath {
         String expectedMessage = "Clicked on button three!";
         driver.findElement(By.xpath(button3Locator)).click();
 
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         String actualMessage = driver.findElement(By.xpath(resultLocator)).getText();
         Assert.assertEquals(actualMessage, expectedMessage);
     }
@@ -44,7 +44,7 @@ public class RelativeXpath {
     public void verifyButton4(){
         String expectedMessage = "Clicked on button four!";
         driver.findElement(By.xpath(button4Locator)).click();
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         String actualMessage = driver.findElement(By.xpath(resultLocator)).getText();
         Assert.assertEquals(actualMessage, expectedMessage);
     }
@@ -53,7 +53,7 @@ public class RelativeXpath {
     public void verifyButton6(){
         String expectedMessage = "Now it's gone!";
         driver.findElement(By.xpath(button6Locator)).click();
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         String actualMessage = driver.findElement(By.xpath(resultLocator)).getText();
         Assert.assertEquals(actualMessage,expectedMessage);
         Assert.assertFalse(driver.findElements(By.xpath(button6Locator)).size()==0);
@@ -65,7 +65,7 @@ public class RelativeXpath {
         List<WebElement> buttons = driver.findElements(By.xpath(allButtonsLocator));
         for(WebElement button: buttons){
             button.click();
-            SeleniumUtils.sleep(1);
+            SeleniumUtils.waitPlease(1);
         }
 
 

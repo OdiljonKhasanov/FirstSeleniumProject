@@ -1,7 +1,7 @@
 package com.cybertek.tests.Day9;
 
-import com.cybertek.tests.BrowserFactory;
-import com.cybertek.tests.SeleniumUtils;
+import com.cybertek.utilities.BrowserFactory;
+import com.cybertek.utilities.SeleniumUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -28,10 +28,10 @@ public void test1() {
     driver.findElement(By.xpath("html/body/div/div[2]/div/div/form/div/div[1]/input[@name='full_name']")).sendKeys("Java GURU");
     //find input box to enter email
     driver.findElement(By.xpath("html/body/div/div[2]/div/div/form/div/div[1]/input[@name='email']")).sendKeys("tomsmith@email.com");
-    SeleniumUtils.sleep(2);
+    SeleniumUtils.waitPlease(2);
     //find button to click sign up
     driver.findElement(By.xpath("html/body/div/div[2]/div/div/form/button")).click();
-    SeleniumUtils.sleep(2);
+    SeleniumUtils.waitPlease(2);
     //expected message
     String expectedMessage = "Thank you for signing up. Click the button below to return to the home page.";
     //actual will be coming from the page
@@ -47,7 +47,7 @@ public void test1() {
         driver.findElement(By.xpath(fullNameLocator)).sendKeys("Tom Smith");
         driver.findElement(By.xpath(emailLocator)).sendKeys("email");
         driver.findElement(By.xpath(signUpButton)).click();
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         String actualLink = driver.getCurrentUrl();
         Assert.assertEquals(actualLink, expectedLink);
 

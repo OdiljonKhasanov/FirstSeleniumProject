@@ -1,7 +1,7 @@
 package com.cybertek.tests.Day11;
 
-import com.cybertek.tests.SeleniumUtils;
-import com.cybertek.tests.VyTrackUtils;
+import com.cybertek.utilities.SeleniumUtils;
+import com.cybertek.utilities.VYTrackUtils;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -44,24 +44,24 @@ public class CreateCalendarEventTest {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("http://qa2.vytrack.com/user/login");
-        VyTrackUtils.login(driver, "salesmanager253", "UserUser123");
+        VYTrackUtils.login(driver, "salesmanager253", "UserUser123");
     }
 
     @Test
     public void verifyCancelButton() {
-        VyTrackUtils.navigatetoModule(driver, "Activities", "Calendar Events");
-        SeleniumUtils.sleep(2);
+        VYTrackUtils.navigateToModule(driver, "Activities", "Calendar Events");
+        SeleniumUtils.waitPlease(2);
         driver.findElement(By.cssSelector(createCalendarEventButtonLocator)).click();
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         Assert.assertTrue(driver.findElement(By.cssSelector(cancelButtonLocator)).isDisplayed());
     }
 
     @Test
     public void verifySaveAndCloseDropdown() {
-        VyTrackUtils.navigatetoModule(driver, "Activities", "Calendar Events");
-        SeleniumUtils.sleep(2);
+        VYTrackUtils.navigateToModule(driver, "Activities", "Calendar Events");
+        SeleniumUtils.waitPlease(2);
         driver.findElement(By.cssSelector(createCalendarEventButtonLocator)).click();
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
 
         //verify save and close button is displayed (visible)
         Assert.assertTrue(driver.findElement(By.xpath(saveAndCloseButtonLocator)).isDisplayed());
@@ -77,9 +77,9 @@ public class CreateCalendarEventTest {
 
     @Test
     public void verifyDefaultOwner(){
-        VyTrackUtils.navigatetoModule(driver, "Activities", "Calendar Events");
+        VYTrackUtils.navigateToModule(driver, "Activities", "Calendar Events");
         driver.findElement(By.cssSelector(createCalendarEventButtonLocator)).click();
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
 
         String expectedOwner = driver.findElement(By.cssSelector(currentUserLocator)).getText().trim();
         String actualOwner = driver.findElement(By.cssSelector(selectedOwnerLocator)).getText().trim();
@@ -89,17 +89,17 @@ public class CreateCalendarEventTest {
 
     @Test
     public void verifyTitle(){
-        VyTrackUtils.navigatetoModule(driver, "Activities", "Calendar Events");
+        VYTrackUtils.navigateToModule(driver, "Activities", "Calendar Events");
         driver.findElement(By.cssSelector(createCalendarEventButtonLocator)).click();
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         Assert.assertTrue(driver.findElement(By.cssSelector(titleLocator)).getAttribute("value").length() == 0);
     }
 
     @Test
     public void verifyStartDateAndTime(){
-        VyTrackUtils.navigatetoModule(driver, "Activities", "Calendar Events");
+        VYTrackUtils.navigateToModule(driver, "Activities", "Calendar Events");
         driver.findElement(By.cssSelector(createCalendarEventButtonLocator)).click();
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
 
         String expectedDate = LocalDate.now().format(DateTimeFormatter.ofPattern("MMM d, yyy"));
         String actualDate = driver.findElement(By.cssSelector(startDateLocator)).getAttribute("value");

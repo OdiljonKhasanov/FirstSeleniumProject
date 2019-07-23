@@ -1,13 +1,11 @@
 package com.cybertek.tests.BriteERP;
 
 
-import com.cybertek.tests.SeleniumUtils;
+import com.cybertek.utilities.SeleniumUtils;
 import com.github.javafaker.Faker;
-import io.github.bonigarcia.wdm.DriverManagerType;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -25,9 +23,6 @@ public class GroupProjectTests {
     String productNameLocator = "[placeholder='Product Name']";
     String createButtonLocator = "[accesskey='c']";
     String saveButtonLocator = "[accesskey='s']";
-
-
-
 
 
     @BeforeMethod
@@ -50,9 +45,13 @@ public class GroupProjectTests {
 
         driver.findElement(By.linkText("Products")).click();
 
-        //WebElement search = driver.findElement(By.cssSelector(searchLocator));
+        WebElement search = driver.findElement(By.cssSelector(searchLocator));
+        //driver.findElement(By.cssSelector(searchLocator)).sendKeys("apple");
+        search.sendKeys("apple");
 
-        Assert.assertTrue(driver.findElement(By.cssSelector(searchLocator)).isEnabled());
+        search.click();
+
+        //Assert.assertTrue(driver.findElement(By.cssSelector(searchLocator)).isEnabled());
     }
 
     @Test(description = "manager Should able add product to inventory")

@@ -1,7 +1,7 @@
 package com.cybertek.tests.Day5;
 
-import com.cybertek.tests.BrowserFactory;
-import com.cybertek.tests.SeleniumUtils;
+import com.cybertek.utilities.BrowserFactory;
+import com.cybertek.utilities.SeleniumUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import java.util.concurrent.TimeUnit;

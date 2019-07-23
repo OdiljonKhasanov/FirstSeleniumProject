@@ -1,7 +1,7 @@
 package com.cybertek.tests.Day7;
 
-import com.cybertek.tests.BrowserFactory;
-import com.cybertek.tests.SeleniumUtils;
+import com.cybertek.utilities.BrowserFactory;
+import com.cybertek.utilities.SeleniumUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -73,17 +73,17 @@ public class DropDownPractice {
         //we have to use object of Select class
 
         dropDownSelect.selectByVisibleText("Virginia");
-        SeleniumUtils.sleep(1);
+        SeleniumUtils.waitPlease(1);
         dropDownSelect.selectByVisibleText("California");
-        SeleniumUtils.sleep(1);
+        SeleniumUtils.waitPlease(1);
         dropDownSelect.selectByVisibleText("Texas");
-        SeleniumUtils.sleep(1);
+        SeleniumUtils.waitPlease(1);
         dropDownSelect.selectByVisibleText("Kansas");
-        SeleniumUtils.sleep(1);
+        SeleniumUtils.waitPlease(1);
         dropDownSelect.selectByVisibleText("New Jersey");
-        SeleniumUtils.sleep(1);
+        SeleniumUtils.waitPlease(1);
         dropDownSelect.selectByVisibleText("Florida");
-        SeleniumUtils.sleep(1);
+        SeleniumUtils.waitPlease(1);
 
     }
 
@@ -93,7 +93,7 @@ public class DropDownPractice {
             List<WebElement> states = dropDownSelect.getOptions();
 
             for(WebElement option : states){
-                SeleniumUtils.sleep(1);
+                SeleniumUtils.waitPlease(1);
 
                 dropDownSelect.selectByVisibleText(option.getText());
             }
@@ -105,7 +105,7 @@ public class DropDownPractice {
         WebElement dropdownState = driver.findElement(By.id("state"));
         Select dropDownSelect = new Select(dropdownState);
        dropDownSelect.selectByValue("PA");
-       SeleniumUtils.sleep(2);
+       SeleniumUtils.waitPlease(2);
        String expected = "Pennsylvania";
        String actual = dropDownSelect.getFirstSelectedOption().getText();
        SeleniumUtils.verifyEquals(expected, actual);
@@ -115,20 +115,20 @@ public class DropDownPractice {
     public static void test5(){
         WebElement dropdownState = driver.findElement(By.id("state"));
         Select dropDownSelect = new Select(dropdownState);
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         dropDownSelect.selectByIndex(5);
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
 
     }
     public static void test6(){
 
         WebElement multipleSelectionWebElement = driver.findElement(By.xpath("//select[@name='Languages']"));
         Select multipleSelectionSelect = new Select(multipleSelectionWebElement);
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         multipleSelectionSelect.selectByVisibleText("Java");
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         multipleSelectionSelect.selectByVisibleText("JavaScript");
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
 
 
 

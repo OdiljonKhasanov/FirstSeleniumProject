@@ -1,6 +1,6 @@
 package com.cybertek.tests.Day12;
 
-import com.cybertek.tests.BrowserFactory;
+import com.cybertek.utilities.BrowserFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;

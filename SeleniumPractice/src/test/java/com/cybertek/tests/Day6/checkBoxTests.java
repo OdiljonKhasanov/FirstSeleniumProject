@@ -1,7 +1,6 @@
 package com.cybertek.tests.Day6;
 
-import com.cybertek.tests.BrowserFactory;
-import io.github.bonigarcia.wdm.WebDriverManager;
+import com.cybertek.utilities.BrowserFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

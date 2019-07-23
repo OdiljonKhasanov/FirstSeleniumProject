@@ -1,6 +1,6 @@
 package com.cybertek.tests.OfficeHour_July8;
 
-import com.cybertek.tests.SeleniumUtils;
+import com.cybertek.utilities.SeleniumUtils;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -26,7 +26,7 @@ public class TestNGIntro {
         driver.get("http://practice.cybertekschool.com/dropdown");
         driver.findElement(By.id("dropdownMenuLink")).click();
         driver.findElement(By.linkText("Etsy")).click();
-        SeleniumUtils.sleep(2);
+        SeleniumUtils.waitPlease(2);
         String expectedURL = "https://www.etsy.com/";
         Assert.assertEquals(expectedURL, driver.getCurrentUrl());
     }
