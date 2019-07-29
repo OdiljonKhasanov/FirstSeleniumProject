@@ -2,7 +2,7 @@ package com.cybertek.tests.Day14;
 
 import com.cybertek.utilities.ConfigurationReader;
 import com.cybertek.utilities.TestBase;
-import com.cybertek.tests.VyTrack.LogInPage;
+import com.cybertek.pages.vytrack.LogInPage;
 import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {

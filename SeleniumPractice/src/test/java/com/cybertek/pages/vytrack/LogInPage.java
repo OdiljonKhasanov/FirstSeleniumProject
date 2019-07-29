@@ -1,4 +1,4 @@
-package com.cybertek.tests.VyTrack;
+package com.cybertek.pages.vytrack;
 
 import com.cybertek.utilities.Driver;
 import org.openqa.selenium.By;
