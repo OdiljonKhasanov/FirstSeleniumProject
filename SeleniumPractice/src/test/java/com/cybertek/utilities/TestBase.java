@@ -18,7 +18,7 @@ public class TestBase {
         action = new Actions(driver);
         driver.manage().timeouts().implicitlyWait(Long.valueOf(ConfigurationReader.getProperty("implicitwait")), TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get(ConfigurationReader.getProperty("tableUrl"));
+        driver.get(ConfigurationReader.getProperty("briteERPLoginURL"));
     }
 
     @AfterMethod
