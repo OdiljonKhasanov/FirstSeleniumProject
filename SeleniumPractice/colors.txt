@@ -5,4 +5,10 @@ pink
 yellow
 white
 black
+
 grey
+=======
+
+########
+gold
+
